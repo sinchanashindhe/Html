@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            function validate(){
+                console.log("calling validate function")
+         var username  = document.getElementById("username")
+         console.log(username.value)
+         console.log(username.value.length)
+         if(username.value==""){
+            console.log("asdfhhjkjk")
+            var errorusername=document.getElementById("errorusername")
+            errorusername.innerHTML="asdfhhjkjk"
+            errorusername.style.color="green"   
+         }
+         var email= document.getElementById("email")
+         console.log(email.value)
+         if(email.value==""){
+            console.log("asdfhhjkjk")
+            var erroremail=document.getElementById("erroremail")
+            erroremail.innerHTML="asdfhhjkjk"
+            erroremail.style.color="blue"  
+            }
+            var email= document.getElementById("password")
+         console.log(password.value)
+         if(password.value==""){
+            console.log("asdfhhjkjk")
+            var erroremail=document.getElementById("erroremail")
+            erroremail.innerHTML="asdfhhjkjk"
+            erroremail.style.color="blue"  
+            }
+            // storage localstorage ,sessionstorage
+        username
+        email
+        password
+    
+
+console.log(username.value)
+console.log(password.value)
+console.log(email.value)
+{}
+  var obj ={
+    "username":username.value
+    
+  }
+console.log(obj)
+localStorage.setItem("javascript","storage in localstorage")
+var obstring=JSON.stringify(obj)
+console.log(objString)
+localStorage.setItem("xworkzuser",objString)
+localStorage.getItem("xworkzuser")
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <!--form-->
+        <form>
+            <div>
+                <label>Enter username</label>
+                <input type="text" name="username" id="username">
+                <span id="errorusername"></span>
+            </div>
+            <div>
+            <label>Enter email</label>
+            <input type="text" name="email" id="email">
+            <span id="erroremail"></span>
+</div>
+<div>
+    <label>Enter password</label>
+    <input type="text" name="password" id="password">
+    <span id="errorpassword"></span>
+</div>
+            <button type="button" onclick="validate()">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+        <!--when you click on button
+        generate event
+    input - clicking on button
+output
+-->
+
+
+    </body>
+</html>
+<!--password
+gender-->
+
+<html>
+<head>
+    <script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
