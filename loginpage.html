@@ -1,16 +1,29 @@
 <html>
-    <body>
-     teacher   
-    </body>
- </html>
+   <head>
+<script>
+   function login(){
+var email =document.getElementById("email")
+var password =document.getElementById("password")
+console.log(email.value)
+console.log(password.value)
 
- <div>
-    All
-    weekend juice ,not in weekdays
-
- </div>
-<!-- copy right symbol-->
-<div>C Xworkz &copy;<div</div>
-<div>Happy &hearts; day </div>
-<div> Happy &hearts</div>
-    
+var registereduser = localStorage.getItem("xworkzuser")
+console.log(registeruser)
+   }
+</script>
+   </head>
+   <body>
+      <form>
+         <div>
+            <label>Enter Email </label>
+            <input type="email" name="password" id="email">
+         </div>
+         <div>
+            <label>Enter password</label>
+            <input type="password" name="password"  id="password">
+         </div>
+         <button onclick="login()">Login</button>
+         <button>Reset</button>
+      </form>
+   </body>
+</html>
